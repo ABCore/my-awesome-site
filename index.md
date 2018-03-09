@@ -12,3 +12,15 @@ layout: home
 ## h2
 
 ### h3?
+
+<script type="text/javascript" src="js/libs/jquery/jquery-1.10.1.min.js"></script>
+<script>
+$(function() {
+  $("*").contents().filter(function() {
+    return this.nodeType==8;
+  }).each(function(i, e) {
+    var tooltips = e.nodeValue.replace(/^ *[\n\r]|[\n\r]$/g, '');
+    $(this).next().attr('title', tooltips);
+  });
+});
+</script>
