@@ -1,7 +1,6 @@
 ---
 layout: gl
 permalink: /GlichList/
-title: bagu list wayaku
 ---
 
 <!--
@@ -13,7 +12,7 @@ __(Mario and controls)__
 -->
 __マリオと操作(Mario and controls)__  
 <!--
-_70 recorded glitches, 64 of which are useful_  
+_70 recorded glitches, 64 of which are useful_   
 -->
 _70個(64個有用)_  
 <!--
