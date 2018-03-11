@@ -1,10 +1,11 @@
 ---
 layout: home
-permalink: README/
+permalink: /README/
+title: README
 ---
 
 (https://abcore.github.io/my-awesome-site/)[https://abcore.github.io/my-awesome-site/]
 
 - [https://abcore.github.io/my-awesome-site/](https://abcore.github.io/my-awesome-site/)
 - [https://abcore.github.io/my-awesome-site/outdex](https://abcore.github.io/my-awesome-site/outdex)
-- [https://abcore.github.io/my-awesome-site/READNE](https://abcore.github.io/my-awesome-site/READNE)
+- [https://abcore.github.io/my-awesome-site/README](https://abcore.github.io/my-awesome-site/README)
