@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>バグリスト和訳</title>
+</head>
+<body>
+{{ content }}
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+$(function() {
+  $("*").contents().filter(function() {
+    return this.nodeType==8;
+  }).each(function(i, e) {
+    var tooltips = e.nodeValue.replace(/^ *[\n\r]|[\n\r]$/g, '');
+    $(this).next().attr('title', tooltips);
+  });
+});
+</script>
+</body>
+</html>
