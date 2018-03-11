@@ -9,11 +9,24 @@
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script>
 $(function() {
-  $("*").contents().filter(function() {
+  $('body').contents().filter(function() {
     return this.nodeType==8;
   }).each(function(i, e) {
     var tooltips = e.nodeValue.replace(/^ *[\n\r]|[\n\r]$/g, '');
-    $(this).next().attr('title', tooltips);
+    var $target = $(this).next();
+    if ($target.is('ul')) {
+      $target = $target.children().first();
+    }
+    $target.attr('title', tooltips);
+    e.remove();
+  });
+  
+  $("ul").each(function(i, e) {
+    var $this = $(this);
+    while ($this.next().is('ul')) {
+      $this.append($this.next().children('li')[0]);
+      $this.next().remove();
+    }
   });
 });
 </script>
