@@ -14,7 +14,7 @@ __マリオと操作(Mario and controls)__
 <!--
 _70 recorded glitches, 64 of which are useful_   
 -->
-_70個(64個有用)_  
+_70個(64個有用)_
 <!--
 * If Mario becomes surrounded by blocks and touches the ground, he will be crushed and die. However, avoiding touching the ground can be done in a number of ways, such as by flying before Mario gets surrounded, or swimming upwards. [Video](https://www.youtube.com/watch?v=oxUGDQCccF4)
 -->
