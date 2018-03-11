@@ -1,10 +1,9 @@
 ---
-layout: home
+layout: rm
 permalink: /README/
-title: README
 ---
 
-(https://abcore.github.io/my-awesome-site/)[https://abcore.github.io/my-awesome-site/]
+# h1
 
 - [https://abcore.github.io/my-awesome-site/](https://abcore.github.io/my-awesome-site/)
 - [https://abcore.github.io/my-awesome-site/outdex](https://abcore.github.io/my-awesome-site/outdex)
